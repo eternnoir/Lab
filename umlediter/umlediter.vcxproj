@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C62F6FDD-046E-36C2-9161-E600973F133B}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include;qmlapplicationviewer;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt;debug;.;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -MP -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_DECLARATIVE_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\qtmaind.lib;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtDeclaratived4.lib;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGuid4.lib;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCored4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib;C:\OpenSSL-Win32_full\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type=%27win32%27 name=%27Microsoft.Windows.Common-Controls%27 version=%276.0.0.0%27 publicKeyToken=%276595b64144ccf1df%27 language=%27*%27 processorArchitecture=%27*%27" %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <OutputFile>debug\umlediter.exe</OutputFile>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_DECLARATIVE_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include;qmlapplicationviewer;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt;release;.;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -MP -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>QT_NO_DEBUG;NDEBUG;_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;QT_DECLARATIVE_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\qtmain.lib;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtDeclarative4.lib;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGui4.lib;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCore4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib;C:\OpenSSL-Win32_full\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type=%27win32%27 name=%27Microsoft.Windows.Common-Controls%27 version=%276.0.0.0%27 publicKeyToken=%276595b64144ccf1df%27 language=%27*%27 processorArchitecture=%27*%27" %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <OutputFile>release\umlediter.exe</OutputFile>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>QT_NO_DEBUG;NDEBUG;_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;QT_DECLARATIVE_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="assoline.cpp" />
+    <ClCompile Include="basemode.cpp" />
+    <ClCompile Include="baseobjcet.cpp" />
+    <ClCompile Include="classobject.cpp" />
+    <ClCompile Include="composline.cpp" />
+    <ClCompile Include="diagramscene.cpp" />
+    <ClCompile Include="diagramwindow.cpp" />
+    <ClCompile Include="groupobject.cpp" />
+    <ClCompile Include="insertassmode.cpp" />
+    <ClCompile Include="insertclassmode.cpp" />
+    <ClCompile Include="insertcomposmode.cpp" />
+    <ClCompile Include="insertgenmode.cpp" />
+    <ClCompile Include="insertusecasemode.cpp" />
+    <ClCompile Include="link.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="qmlapplicationviewer\qmlapplicationviewer.cpp" />
+    <ClCompile Include="selectmode.cpp" />
+    <ClCompile Include="usecaseclass.cpp" />
+    <ClCompile Include="debug\moc_diagramscene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_diagramscene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\moc_diagramwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_diagramwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\moc_qmlapplicationviewer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_qmlapplicationviewer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assoline.h" />
+    <ClInclude Include="basemode.h" />
+    <ClInclude Include="baseobjcet.h" />
+    <ClInclude Include="classobject.h" />
+    <ClInclude Include="composline.h" />
+    <CustomBuild Include="diagramscene.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;diagramscene.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include" -I"qmlapplicationviewer" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt" -I"debug" -I"." -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 diagramscene.h -o debug\moc_diagramscene.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC diagramscene.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_diagramscene.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;diagramscene.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include" -I"qmlapplicationviewer" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt" -I"release" -I"." -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 diagramscene.h -o release\moc_diagramscene.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC diagramscene.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_diagramscene.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="diagramwindow.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;diagramwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include" -I"qmlapplicationviewer" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt" -I"debug" -I"." -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 diagramwindow.h -o debug\moc_diagramwindow.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC diagramwindow.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_diagramwindow.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;diagramwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include" -I"qmlapplicationviewer" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt" -I"release" -I"." -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 diagramwindow.h -o release\moc_diagramwindow.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC diagramwindow.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_diagramwindow.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="groupobject.h" />
+    <ClInclude Include="insertassmode.h" />
+    <ClInclude Include="insertclassmode.h" />
+    <ClInclude Include="insertcomposmode.h" />
+    <ClInclude Include="insertgenmode.h" />
+    <ClInclude Include="insertusecasemode.h" />
+    <ClInclude Include="link.h" />
+    <ClInclude Include="node.h" />
+    <CustomBuild Include="qmlapplicationviewer\qmlapplicationviewer.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;qmlapplicationviewer\qmlapplicationviewer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include" -I"qmlapplicationviewer" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt" -I"debug" -I"." -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 qmlapplicationviewer\qmlapplicationviewer.h -o debug\moc_qmlapplicationviewer.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qmlapplicationviewer\qmlapplicationviewer.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_qmlapplicationviewer.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;qmlapplicationviewer\qmlapplicationviewer.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtDeclarative" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include" -I"qmlapplicationviewer" -I"c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt" -I"release" -I"." -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 qmlapplicationviewer\qmlapplicationviewer.h -o release\moc_qmlapplicationviewer.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qmlapplicationviewer\qmlapplicationviewer.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_qmlapplicationviewer.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="selectmode.h" />
+    <ClInclude Include="usecaseclass.h" />
+    <ClInclude Include="ui_diagramwindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="diagramwindow.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe;diagramwindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe diagramwindow.ui -o ui_diagramwindow.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC diagramwindow.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ui_diagramwindow.h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe;diagramwindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe diagramwindow.ui -o ui_diagramwindow.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC diagramwindow.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ui_diagramwindow.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
