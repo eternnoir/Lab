@@ -15,6 +15,7 @@ public:
     QRectF boundingRect()const;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
     virtual void editText();
+    virtual void add();
 
 protected:
     void mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event);

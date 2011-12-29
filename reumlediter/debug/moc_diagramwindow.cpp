@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'diagramwindow.h'
 **
-** Created: Mon Dec 5 12:39:59 2011
+** Created: Thu Dec 29 14:14:29 2011
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
