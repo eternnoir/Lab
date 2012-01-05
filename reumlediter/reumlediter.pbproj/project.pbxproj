@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 34;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/wangfrank/Documents/Codes/Lab/reumlediter\ -f\ \'reumlediter.pbproj/qt_makeqmake.mak\'";
+		};
+		5A6B4C0FA93B9AD3CB49BDA0 = {
+			isa = PBXFileReference;
+			name = "assoline.cpp";
+			path = "src/assoline.cpp";
+			refType = 4;
+		};
+		16A95474866FB1E50D84428B = {
+			fileRef = "5A6B4C0FA93B9AD3CB49BDA0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		13567E4B066C9E90734C2E7C = {
+			isa = PBXFileReference;
+			name = "basemode.cpp";
+			path = "src/basemode.cpp";
+			refType = 4;
+		};
+		17A634255FA84B8A27C4E347 = {
+			fileRef = "13567E4B066C9E90734C2E7C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B6BEB003BCB9C2DF21FDCA2A = {
+			isa = PBXFileReference;
+			name = "baseobjcet.cpp";
+			path = "src/baseobjcet.cpp";
+			refType = 4;
+		};
+		A9CA2D4B5B62478EB97CE7B3 = {
+			fileRef = "B6BEB003BCB9C2DF21FDCA2A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		737E7B7DC32F609C895EE762 = {
+			isa = PBXFileReference;
+			name = "classobject.cpp";
+			path = "src/classobject.cpp";
+			refType = 4;
+		};
+		F27F252255DF77284AB3F084 = {
+			fileRef = "737E7B7DC32F609C895EE762";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BD2F1EDFD721C43E535D1912 = {
+			isa = PBXFileReference;
+			name = "composline.cpp";
+			path = "src/composline.cpp";
+			refType = 4;
+		};
+		61283E6E6E4101EAC99A3D26 = {
+			fileRef = "BD2F1EDFD721C43E535D1912";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		90168486F7040EA5FCBE3804 = {
+			isa = PBXFileReference;
+			name = "diagramscene.cpp";
+			path = "src/diagramscene.cpp";
+			refType = 4;
+		};
+		D1E707B40126557607B62764 = {
+			fileRef = "90168486F7040EA5FCBE3804";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		12844947E4FE510E4026DE0F = {
+			isa = PBXFileReference;
+			name = "diagramwindow.cpp";
+			path = "src/diagramwindow.cpp";
+			refType = 4;
+		};
+		F388AEAEBD80513B0AA31D12 = {
+			fileRef = "12844947E4FE510E4026DE0F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		45500330BCF70F543F5AA8A6 = {
+			isa = PBXFileReference;
+			name = "groupobject.cpp";
+			path = "src/groupobject.cpp";
+			refType = 4;
+		};
+		0CD7CC59B7B942AE1FDCA57A = {
+			fileRef = "45500330BCF70F543F5AA8A6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		75BC6B416495F2CB233AC6CC = {
+			isa = PBXFileReference;
+			name = "insertassmode.cpp";
+			path = "src/insertassmode.cpp";
+			refType = 4;
+		};
+		E8B485EADFD888F9A9554D75 = {
+			fileRef = "75BC6B416495F2CB233AC6CC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3940A554A338AD4283507B14 = {
+			isa = PBXFileReference;
+			name = "insertclassmode.cpp";
+			path = "src/insertclassmode.cpp";
+			refType = 4;
+		};
+		0DDC361C554A80C2B2F5FC02 = {
+			fileRef = "3940A554A338AD4283507B14";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3C0F6132D027A4E3230E7462 = {
+			isa = PBXFileReference;
+			name = "insertcomposmode.cpp";
+			path = "src/insertcomposmode.cpp";
+			refType = 4;
+		};
+		4487C2AB1B14C7AAF5178E42 = {
+			fileRef = "3C0F6132D027A4E3230E7462";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		15802F25CC80443957157D49 = {
+			isa = PBXFileReference;
+			name = "insertgenmode.cpp";
+			path = "src/insertgenmode.cpp";
+			refType = 4;
+		};
+		C80C4BA6AE6DB3AB2CE3D5B3 = {
+			fileRef = "15802F25CC80443957157D49";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		80216742CB3FABAA1EC1177D = {
+			isa = PBXFileReference;
+			name = "insertusecasemode.cpp";
+			path = "src/insertusecasemode.cpp";
+			refType = 4;
+		};
+		F90EAA125C606038C2880ADE = {
+			fileRef = "80216742CB3FABAA1EC1177D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		21169B607A9E0BBF21017509 = {
+			isa = PBXFileReference;
+			name = "link.cpp";
+			path = "src/link.cpp";
+			refType = 4;
+		};
+		677AD3BA7AEB99DDD7D54F4D = {
+			fileRef = "21169B607A9E0BBF21017509";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7EC3C68A81EFFF79B6CA22AC = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "src/main.cpp";
+			refType = 4;
+		};
+		FD1638E377D97C82BDB438FB = {
+			fileRef = "7EC3C68A81EFFF79B6CA22AC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		15FF132547D202D4F6103481 = {
+			isa = PBXFileReference;
+			name = "node.cpp";
+			path = "src/node.cpp";
+			refType = 4;
+		};
+		8C1240F45C6BD6B663CE950F = {
+			fileRef = "15FF132547D202D4F6103481";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D9EA69845E6AB8B7A9F8BA0D = {
+			isa = PBXFileReference;
+			name = "selectmode.cpp";
+			path = "src/selectmode.cpp";
+			refType = 4;
+		};
+		F327075363158447DEB782E5 = {
+			fileRef = "D9EA69845E6AB8B7A9F8BA0D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2A1436056ABFD98C14DD1489 = {
+			isa = PBXFileReference;
+			name = "usecaseclass.cpp";
+			path = "src/usecaseclass.cpp";
+			refType = 4;
+		};
+		DA7E1A972F5A124EFDA78308 = {
+			fileRef = "2A1436056ABFD98C14DD1489";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		50C22170FDF11AF16E59D08E = {
+			isa = PBXFileReference;
+			name = "moc_diagramscene.cpp";
+			path = "moc_diagramscene.cpp";
+			refType = 4;
+		};
+		DC86BD449029AB9BA5B82858 = {
+			fileRef = "50C22170FDF11AF16E59D08E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2A3571C564659B8DE9069BD2 = {
+			isa = PBXFileReference;
+			name = "moc_diagramwindow.cpp";
+			path = "moc_diagramwindow.cpp";
+			refType = 4;
+		};
+		165B61207C1270157BC10798 = {
+			fileRef = "2A3571C564659B8DE9069BD2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		827CD7A49B3F7E29984454F7 = {
+			isa = PBXFileReference;
+			name = "ui_diagramwindow.h";
+			path = "ui_diagramwindow.h";
+			refType = 4;
+		};
+		BEEDE8C47FADEDB83EED2C95 = {
+			isa = PBXFileReference;
+			name = "assoline.h";
+			path = "src/assoline.h";
+			refType = 4;
+		};
+		A8EAEE7010B796382CE93BD0 = {
+			isa = PBXFileReference;
+			name = "basemode.h";
+			path = "src/basemode.h";
+			refType = 4;
+		};
+		25B0C6593DB55B4404A5DDC4 = {
+			isa = PBXFileReference;
+			name = "baseobjcet.h";
+			path = "src/baseobjcet.h";
+			refType = 4;
+		};
+		7B69E8D4A8010F26E886028A = {
+			isa = PBXFileReference;
+			name = "classobject.h";
+			path = "src/classobject.h";
+			refType = 4;
+		};
+		AB2BD2BB6C4E265D66A049B2 = {
+			isa = PBXFileReference;
+			name = "composline.h";
+			path = "src/composline.h";
+			refType = 4;
+		};
+		C4082F3AEEED5300CC60F615 = {
+			isa = PBXFileReference;
+			name = "diagramscene.h";
+			path = "src/diagramscene.h";
+			refType = 4;
+		};
+		4178E10DC7778912F5584546 = {
+			isa = PBXFileReference;
+			name = "diagramwindow.h";
+			path = "src/diagramwindow.h";
+			refType = 4;
+		};
+		EBA8FCD6C3C2465A9493458C = {
+			isa = PBXFileReference;
+			name = "groupobject.h";
+			path = "src/groupobject.h";
+			refType = 4;
+		};
+		538530F9EE13F85DF7200421 = {
+			isa = PBXFileReference;
+			name = "insertassmode.h";
+			path = "src/insertassmode.h";
+			refType = 4;
+		};
+		805C9501F1620822A3AD44B1 = {
+			isa = PBXFileReference;
+			name = "insertclassmode.h";
+			path = "src/insertclassmode.h";
+			refType = 4;
+		};
+		6F01922F44484D8B5243DB95 = {
+			isa = PBXFileReference;
+			name = "insertcomposmode.h";
+			path = "src/insertcomposmode.h";
+			refType = 4;
+		};
+		9EF80B0C4B4A0FE0C0DE4A69 = {
+			isa = PBXFileReference;
+			name = "insertgenmode.h";
+			path = "src/insertgenmode.h";
+			refType = 4;
+		};
+		458946DA0D0C9D6062AF6844 = {
+			isa = PBXFileReference;
+			name = "insertusecasemode.h";
+			path = "src/insertusecasemode.h";
+			refType = 4;
+		};
+		372AE9A3F5750AC63725167D = {
+			isa = PBXFileReference;
+			name = "link.h";
+			path = "src/link.h";
+			refType = 4;
+		};
+		CAD2DCE043A459A0F31577B9 = {
+			isa = PBXFileReference;
+			name = "node.h";
+			path = "src/node.h";
+			refType = 4;
+		};
+		5448B4275502395345F89C6F = {
+			isa = PBXFileReference;
+			name = "resource.h";
+			path = "src/resource.h";
+			refType = 4;
+		};
+		98A1322939FB1FAA02FEE482 = {
+			isa = PBXFileReference;
+			name = "selectmode.h";
+			path = "src/selectmode.h";
+			refType = 4;
+		};
+		B429AD882AF46A53BD95CB74 = {
+			isa = PBXFileReference;
+			name = "usecaseclass.h";
+			path = "src/usecaseclass.h";
+			refType = 4;
+		};
+		FA8048085E15B258C2AB59D5 = {
+			isa = PBXFileReference;
+			name = "reumlediter.pro";
+			path = "reumlediter.pro";
+			refType = 4;
+		};
+		17A4041B0BF527254D5CB412 = {
+			isa = PBXFileReference;
+			name = "diagramwindow.ui";
+			path = "src/diagramwindow.ui";
+			refType = 4;
+		};
+		3841A25321BB343C3E7381E6 = {
+			fileRef = "17A4041B0BF527254D5CB412";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"F4AF6147B42623F6B3284738");
+			name = "Headers";
+			refType = 4;
+		};
+		F4AF6147B42623F6B3284738 = {
+			isa = PBXGroup;
+			children = (
+				"BEEDE8C47FADEDB83EED2C95",
+				"A8EAEE7010B796382CE93BD0",
+				"25B0C6593DB55B4404A5DDC4",
+				"7B69E8D4A8010F26E886028A",
+				"AB2BD2BB6C4E265D66A049B2",
+				"C4082F3AEEED5300CC60F615",
+				"4178E10DC7778912F5584546",
+				"EBA8FCD6C3C2465A9493458C",
+				"538530F9EE13F85DF7200421",
+				"805C9501F1620822A3AD44B1",
+				"6F01922F44484D8B5243DB95",
+				"9EF80B0C4B4A0FE0C0DE4A69",
+				"458946DA0D0C9D6062AF6844",
+				"372AE9A3F5750AC63725167D",
+				"CAD2DCE043A459A0F31577B9",
+				"5448B4275502395345F89C6F",
+				"98A1322939FB1FAA02FEE482",
+				"B429AD882AF46A53BD95CB74");
+			name = "src";
+			refType = 4;
+		};
+		A1B6D1488110DA0868414A40 = {
+			isa = PBXGroup;
+			children = (
+				"17A4041B0BF527254D5CB412");
+			name = "src";
+			refType = 4;
+		};
+		06674E1DE8D3EB6E763DFFDA = {
+			isa = PBXGroup;
+			children = (
+				"5A6B4C0FA93B9AD3CB49BDA0",
+				"13567E4B066C9E90734C2E7C",
+				"B6BEB003BCB9C2DF21FDCA2A",
+				"737E7B7DC32F609C895EE762",
+				"BD2F1EDFD721C43E535D1912",
+				"90168486F7040EA5FCBE3804",
+				"12844947E4FE510E4026DE0F",
+				"45500330BCF70F543F5AA8A6",
+				"75BC6B416495F2CB233AC6CC",
+				"3940A554A338AD4283507B14",
+				"3C0F6132D027A4E3230E7462",
+				"15802F25CC80443957157D49",
+				"80216742CB3FABAA1EC1177D",
+				"21169B607A9E0BBF21017509",
+				"7EC3C68A81EFFF79B6CA22AC",
+				"15FF132547D202D4F6103481",
+				"D9EA69845E6AB8B7A9F8BA0D",
+				"2A1436056ABFD98C14DD1489");
+			name = "src";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"06674E1DE8D3EB6E763DFFDA");
+			name = "Sources";
+			refType = 4;
+		};
+		EEC299C65D5017EB9DD513B0 = {
+			isa = PBXGroup;
+			children = (
+				"A1B6D1488110DA0868414A40");
+			name = "Sources [UIC]";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"FA8048085E15B258C2AB59D5");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"50C22170FDF11AF16E59D08E",
+				"2A3571C564659B8DE9069BD2",
+				"827CD7A49B3F7E29984454F7");
+			name = "Temporary Sources";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"16A95474866FB1E50D84428B",
+				"17A634255FA84B8A27C4E347",
+				"A9CA2D4B5B62478EB97CE7B3",
+				"F27F252255DF77284AB3F084",
+				"61283E6E6E4101EAC99A3D26",
+				"D1E707B40126557607B62764",
+				"F388AEAEBD80513B0AA31D12",
+				"0CD7CC59B7B942AE1FDCA57A",
+				"E8B485EADFD888F9A9554D75",
+				"0DDC361C554A80C2B2F5FC02",
+				"4487C2AB1B14C7AAF5178E42",
+				"C80C4BA6AE6DB3AB2CE3D5B3",
+				"F90EAA125C606038C2880ADE",
+				"677AD3BA7AEB99DDD7D54F4D",
+				"FD1638E377D97C82BDB438FB",
+				"8C1240F45C6BD6B663CE950F",
+				"F327075363158447DEB782E5",
+				"DA7E1A972F5A124EFDA78308",
+				"DC86BD449029AB9BA5B82858",
+				"165B61207C1270157BC10798");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"16A95474866FB1E50D84428B",
+				"17A634255FA84B8A27C4E347",
+				"A9CA2D4B5B62478EB97CE7B3",
+				"F27F252255DF77284AB3F084",
+				"61283E6E6E4101EAC99A3D26",
+				"D1E707B40126557607B62764",
+				"F388AEAEBD80513B0AA31D12",
+				"0CD7CC59B7B942AE1FDCA57A",
+				"E8B485EADFD888F9A9554D75",
+				"0DDC361C554A80C2B2F5FC02",
+				"4487C2AB1B14C7AAF5178E42",
+				"C80C4BA6AE6DB3AB2CE3D5B3",
+				"F90EAA125C606038C2880ADE",
+				"677AD3BA7AEB99DDD7D54F4D",
+				"FD1638E377D97C82BDB438FB",
+				"8C1240F45C6BD6B663CE950F",
+				"F327075363158447DEB782E5",
+				"DA7E1A972F5A124EFDA78308",
+				"DC86BD449029AB9BA5B82858",
+				"165B61207C1270157BC10798");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/wangfrank/Documents/Codes/Lab/reumlediter\ -f\ \'reumlediter.pbproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"16A95474866FB1E50D84428B",
+				"17A634255FA84B8A27C4E347",
+				"A9CA2D4B5B62478EB97CE7B3",
+				"F27F252255DF77284AB3F084",
+				"61283E6E6E4101EAC99A3D26",
+				"D1E707B40126557607B62764",
+				"F388AEAEBD80513B0AA31D12",
+				"0CD7CC59B7B942AE1FDCA57A",
+				"E8B485EADFD888F9A9554D75",
+				"0DDC361C554A80C2B2F5FC02",
+				"4487C2AB1B14C7AAF5178E42",
+				"C80C4BA6AE6DB3AB2CE3D5B3",
+				"F90EAA125C606038C2880ADE",
+				"677AD3BA7AEB99DDD7D54F4D",
+				"FD1638E377D97C82BDB438FB",
+				"8C1240F45C6BD6B663CE950F",
+				"F327075363158447DEB782E5",
+				"DA7E1A972F5A124EFDA78308",
+				"DC86BD449029AB9BA5B82858",
+				"165B61207C1270157BC10798");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Users/wangfrank/Documents/Codes/Lab/reumlediter";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "62C593FAE94FB11497D84DA6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"46E892BBB6BB6952967E0561",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"EEC299C65D5017EB9DD513B0",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "reumlediter";
+			path = "";
+			refType = 4;
+		};
+		62C593FAE94FB11497D84DA6 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "reumlediter.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"62C593FAE94FB11497D84DA6");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		99AD146B3C8020F6180B0DF7 = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/usr/include",
+					".",
+					"src",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.7/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/wangfrank/Documents/Codes/Lab/reumlediter";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				WRAPPER_SUFFIX = "app";
+				PRODUCT_NAME = "reumlediter";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "62C593FAE94FB11497D84DA6";
+			shouldUseHeadermap = 1;
+			isa = PBXApplicationTarget;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>reumlediter</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.reumlediter</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "reumlediter";
+			productName = "reumlediter";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		8D0921A599A626D1569D9498 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Development";
+		};
+		4CFAD8B741C7FF5A47E1CF98 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Deployment";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"8D0921A599A626D1569D9498");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			projectDirPath = "";
+			targets = (
+				"99AD146B3C8020F6180B0DF7");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
