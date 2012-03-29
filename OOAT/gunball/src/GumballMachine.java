@@ -10,6 +10,7 @@ public class GumballMachine {
  
 	State state = soldOutState;
 	int count = 0;
+	int isFake= 0;
  
 	public GumballMachine(int numberGumballs) {
 		soldOutState = new SoldOutState(this);
@@ -18,6 +19,7 @@ public class GumballMachine {
 		soldState = new SoldState(this);
 		winnerState = new WinnerState(this);
 
+		
 		this.count = numberGumballs;
  		if (numberGumballs > 0) {
 			state = noQuarterState;
@@ -25,7 +27,7 @@ public class GumballMachine {
 	}
  
 	public void insertQuarter() {
-		state.insertQuarter();
+		state.insertQuarter(1);
 	}
  
 	public void ejectQuarter() {

@@ -6,7 +6,7 @@ public class WinnerState implements State {
         this.gumballMachine = gumballMachine;
     }
  
-	public void insertQuarter() {
+	public void insertQuarter(int isFake) {
 		System.out.println("Please wait, we're already giving you a Gumball");
 	}
  

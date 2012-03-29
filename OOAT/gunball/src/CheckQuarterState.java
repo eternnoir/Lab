@@ -1,7 +1,12 @@
 
 public class CheckQuarterState implements State  {
 	
-	public void insertQuarter()
+	public CheckQuarterState (GumballMachine gumballMachine)
+	{
+		
+	}
+	
+	public void insertQuarter(int isFake)
 	{
 				
 	}

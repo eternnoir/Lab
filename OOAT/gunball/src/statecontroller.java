@@ -9,7 +9,7 @@ public class statecontroller implements State {
 	State winnerStat;
 
 	
-	public void insertQuarter()
+	public void insertQuarter(int isFake)
 	{
 				
 	}
@@ -26,6 +26,11 @@ public class statecontroller implements State {
 		
 	}
 	public void insertFakeQuarter()
+	{
+		
+	}
+	//set state function
+	public void setState(State state)
 	{
 		
 	}
