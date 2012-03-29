@@ -1,11 +1,10 @@
 
 public class SoldState implements State {
-    GumballMachine gumballMachine;
- 
-    public SoldState(GumballMachine gumballMachine) {
-        this.gumballMachine = gumballMachine;
+	statecontroller statecontroller;
+	 
+    public SoldState(statecontroller statecontroll) {
+        this.statecontroller = statecontroll;
     }
-       
 	public void insertQuarter(int isFake) {
 		System.out.println("Please wait, we're already giving you a gumball");
 	}
@@ -19,12 +18,12 @@ public class SoldState implements State {
 	}
  
 	public void dispense() {
-		gumballMachine.releaseBall();
-		if (gumballMachine.getCount() > 0) {
-			gumballMachine.setState(gumballMachine.getNoQuarterState());
+		statecontroller.getMachine().releaseBall();
+		if (statecontroller.getMachine().getCount() > 0) {
+			statecontroller.setState(statecontroller.getNoQuarterState());
 		} else {
 			System.out.println("Oops, out of gumballs!");
-			gumballMachine.setState(gumballMachine.getSoldOutState());
+			statecontroller.setState(statecontroller.getSoldOutState());
 		}
 	}
  

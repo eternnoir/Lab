@@ -3,11 +3,12 @@ import java.util.Random;
 
 public class HasQuarterState implements State {
 	Random randomWinner = new Random(System.currentTimeMillis());
-	GumballMachine gumballMachine;
- 
-	public HasQuarterState(GumballMachine gumballMachine) {
-		this.gumballMachine = gumballMachine;
-	}
+	statecontroller statecontroller;
+
+	 
+    public HasQuarterState(statecontroller statecontroll) {
+        this.statecontroller = statecontroll;
+    }
   
 	public void insertQuarter(int isFake) {
 		System.out.println("You can't insert another quarter");
@@ -15,17 +16,21 @@ public class HasQuarterState implements State {
  
 	public void ejectQuarter() {
 		System.out.println("Quarter returned");
-		gumballMachine.setState(gumballMachine.getNoQuarterState());
+		statecontroller.hasquarter();
 	}
  
 	public void turnCrank() {
 		System.out.println("You turned...");
+		statecontroller.trunCranked();
+/*		
 		int winner = randomWinner.nextInt(10);
-		if ((winner == 0) && (gumballMachine.getCount() > 1)) {
-			gumballMachine.setState(gumballMachine.getWinnerState());
+
+		if ((winner == 0) && (statecontroller.gunballmachine.getCount() > 1)) {
+			statecontroller.setState(statecontroller.getWinnerState());
 		} else {
-			gumballMachine.setState(gumballMachine.getSoldState());
+			statecontroller.setState(statecontroller.getSoldState());
 		}
+*/
 	}
 
     public void dispense() {

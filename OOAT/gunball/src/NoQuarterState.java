@@ -1,14 +1,15 @@
 
 public class NoQuarterState implements State {
-    GumballMachine gumballMachine;
- 
-    public NoQuarterState(GumballMachine gumballMachine) {
-        this.gumballMachine = gumballMachine;
+	statecontroller statecontroller;
+	 
+    public NoQuarterState(statecontroller statecontroll) {
+        this.statecontroller = statecontroll;
     }
  
 	public void insertQuarter(int isFake) {
 		System.out.println("You inserted a quarter");
-		gumballMachine.setState(gumballMachine.getHasQuarterState());
+		statecontroller.getMachine().isFake=isFake;
+		statecontroller.hasquarter();
 	}
  
 	public void ejectQuarter() {

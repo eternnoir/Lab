@@ -8,11 +8,11 @@ public class GumballMachineTestDrive {
 
 		System.out.println(gumballMachine);
 
-		gumballMachine.insertQuarter();
+		gumballMachine.insertQuarter(1);
 		gumballMachine.turnCrank();
-		gumballMachine.insertQuarter();
+		gumballMachine.insertQuarter(0);
 		gumballMachine.turnCrank();
-
+/*
 		System.out.println(gumballMachine);
 
 		gumballMachine.insertQuarter();
@@ -42,5 +42,6 @@ public class GumballMachineTestDrive {
 		gumballMachine.turnCrank();
 
 		System.out.println(gumballMachine);
+*/
 	}
 }

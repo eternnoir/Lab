@@ -1,48 +1,31 @@
 
 
 public class GumballMachine {
+ 	statecontroller statecontroller;
  
-	State soldOutState;
-	State noQuarterState;
-	State hasQuarterState;
-	State soldState;
-	State winnerState;
- 
-	State state = soldOutState;
 	int count = 0;
-	int isFake= 0;
+	int isFake = 0;
  
 	public GumballMachine(int numberGumballs) {
-		soldOutState = new SoldOutState(this);
-		noQuarterState = new NoQuarterState(this);
-		hasQuarterState = new HasQuarterState(this);
-		soldState = new SoldState(this);
-		winnerState = new WinnerState(this);
-
 		
 		this.count = numberGumballs;
- 		if (numberGumballs > 0) {
-			state = noQuarterState;
-		} 
+		statecontroller = new statecontroller(this);
 	}
  
-	public void insertQuarter() {
-		state.insertQuarter(1);
+	public void insertQuarter(int isFake) {
+		statecontroller.insertQuarter(isFake);
 	}
  
 	public void ejectQuarter() {
-		state.ejectQuarter();
+		statecontroller.ejectQuarter();
 	}
  
 	public void turnCrank() {
-		state.turnCrank();
-		state.dispense();
+		statecontroller.turnCrank();
+		statecontroller.dispense();
 	}
 
-	void setState(State state) {
-		this.state = state;
-	}
- 
+
 	void releaseBall() {
 		System.out.println("A gumball comes rolling out the slot...");
 		if (count != 0) {
@@ -54,35 +37,8 @@ public class GumballMachine {
 		return count;
 	}
  
-	void refill(int count) {
-		this.count = count;
-		state = noQuarterState;
-	}
 
-    public State getState() {
-        return state;
-    }
 
-    public State getSoldOutState() {
-        return soldOutState;
-    }
-
-    public State getNoQuarterState() {
-        return noQuarterState;
-    }
-
-    public State getHasQuarterState() {
-        return hasQuarterState;
-    }
-
-    public State getSoldState() {
-        return soldState;
-    }
-
-    public State getWinnerState() {
-        return winnerState;
-    }
- 
 	public String toString() {
 		StringBuffer result = new StringBuffer();
 		result.append("\nMighty Gumball, Inc.");
@@ -92,7 +48,6 @@ public class GumballMachine {
 			result.append("s");
 		}
 		result.append("\n");
-		result.append("Machine is " + state + "\n");
 		return result.toString();
 	}
 }

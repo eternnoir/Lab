@@ -1,9 +1,9 @@
 
 public class SoldOutState implements State {
-    GumballMachine gumballMachine;
+	statecontroller statecontroller;
  
-    public SoldOutState(GumballMachine gumballMachine) {
-        this.gumballMachine = gumballMachine;
+    public SoldOutState(statecontroller statecontroll) {
+        this.statecontroller = statecontroll;
     }
  
 	public void insertQuarter(int isFake) {
