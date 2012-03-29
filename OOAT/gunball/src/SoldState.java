@@ -20,10 +20,10 @@ public class SoldState implements State {
 	public void dispense() {
 		statecontroller.getMachine().releaseBall();
 		if (statecontroller.getMachine().getCount() > 0) {
-			statecontroller.setState(statecontroller.getNoQuarterState());
+			statecontroller.initState();
 		} else {
 			System.out.println("Oops, out of gumballs!");
-			statecontroller.setState(statecontroller.getSoldOutState());
+			statecontroller.issoldout();
 		}
 	}
  

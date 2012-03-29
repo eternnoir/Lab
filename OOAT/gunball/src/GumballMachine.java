@@ -41,8 +41,7 @@ public class GumballMachine {
 
 	public String toString() {
 		StringBuffer result = new StringBuffer();
-		result.append("\nMighty Gumball, Inc.");
-		result.append("\nJava-enabled Standing Gumball Model #2004");
+		result.append("\nMighty Gumball, Can Use Fake Quarter.");
 		result.append("\nInventory: " + count + " gumball");
 		if (count != 1) {
 			result.append("s");

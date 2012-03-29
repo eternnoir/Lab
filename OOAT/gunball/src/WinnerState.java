@@ -22,14 +22,14 @@ public class WinnerState implements State {
 		System.out.println("YOU'RE A WINNER! You get two gumballs for your quarter");
 		statecontroller.getMachine().releaseBall();
 		if (statecontroller.getMachine().getCount() == 0) {
-			statecontroller.setState(statecontroller.getSoldOutState());
+			statecontroller.issoldout();
 		} else {
 			statecontroller.getMachine().releaseBall();
 			if (statecontroller.getMachine().getCount() > 0) {
-				statecontroller.setState(statecontroller.getNoQuarterState());
+				statecontroller.initState();
 			} else {
             	System.out.println("Oops, out of gumballs!");
-            	statecontroller.setState(statecontroller.getSoldOutState());
+            	statecontroller.issoldout();
 			}
 		}
 	}

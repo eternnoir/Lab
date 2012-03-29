@@ -43,46 +43,7 @@ public class statecontroller implements State {
 	{
 		currentstate.dispense();
 	}
-	//set state function
-	public void setState(State state)
-	{
-		currentstate = state;
-	}
-	public State getState() 
-	{
-	    return currentstate;
-	}
-
-	public State getSoldOutState() 
-	{
-		return soldOutState;
-	 }
-
-    public State getNoQuarterState() 
-    {
-        return noQuarterState;
-    }
-
-    public State getHasQuarterState() 
-    {
-        return hasQuarterState;
-    }
-
-    public State getSoldState() 
-    {
-        return soldState;
-    }
-
-    public State getWinnerState() 
-    {
-        return winnerState;
-    }
-    
-    public State getCheckState()
-    {
-    	return checkState;
-    }
-	 
+ 
 	
     public GumballMachine getMachine()
     {
@@ -105,10 +66,17 @@ public class statecontroller implements State {
     	currentstate = checkState;
     }
     
+    public void issoldout()
+    {
+    	currentstate = soldOutState;
+    }
+    
     public void checked()
     {
     	currentstate = soldState;
     }
+    
+    
     
     
 
