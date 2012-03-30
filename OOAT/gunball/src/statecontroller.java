@@ -41,6 +41,7 @@ public class statecontroller implements State {
 	}
 	public void dispense()
 	{
+		currentstate.turnCrank();
 		currentstate.dispense();
 	}
     public GumballMachine getMachine()
@@ -61,7 +62,7 @@ public class statecontroller implements State {
     
     public void trunCranked()
     {
-    	checkState.turnCrank();
+    	currentstate = checkState;
     }
     
     public void issoldout()
