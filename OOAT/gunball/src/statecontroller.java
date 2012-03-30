@@ -43,8 +43,6 @@ public class statecontroller implements State {
 	{
 		currentstate.dispense();
 	}
- 
-	
     public GumballMachine getMachine()
     {
     	return this.gunballmachine;
@@ -63,7 +61,7 @@ public class statecontroller implements State {
     
     public void trunCranked()
     {
-    	currentstate = checkState;
+    	checkState.turnCrank();
     }
     
     public void issoldout()
@@ -74,10 +72,6 @@ public class statecontroller implements State {
     public void checked()
     {
     	currentstate = soldState;
-    }
-    
-    
-    
-    
+    }   
 
 }

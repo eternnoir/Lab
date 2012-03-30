@@ -29,7 +29,7 @@ public class CheckQuarterState implements State  {
 	}
 	public void dispense()
 	{
-		
+		//this.statecontroller.dispense();
 	}
 
 }
