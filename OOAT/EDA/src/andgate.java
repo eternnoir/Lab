@@ -36,16 +36,8 @@ public class andgate implements gate{
 	{
 		if(check() == true)
 		{
-			if((input1.getstate() == true) && (input2.getstate() == true))
-			{
-				output.isevu=true;
-				output.changestate(true);
-			}
-			else
-			{
-				output.isevu = true;
-				output.changestate(false);
-			}
+			output.isevu = true;
+			output.changestate(input1.getstate()&input2.getstate());
 		}
 		else
 		{

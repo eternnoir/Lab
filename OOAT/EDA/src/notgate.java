@@ -31,16 +31,8 @@ public class notgate implements gate {
 	{
 		if(check() == true)
 		{
-			if(input1.getstate() == true)
-			{
-				output.isevu=true;
-				output.changestate(false);
-			}
-			else
-			{
-				output.isevu=true;
-				output.changestate(true);
-			}
+			output.isevu = true;
+			output.changestate(!input1.getstate());
 		}
 		else
 		{
