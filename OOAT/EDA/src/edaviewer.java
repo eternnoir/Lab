@@ -51,7 +51,7 @@ public class edaviewer {
 				System.out.printf(commands[2]);
 				System.out.printf(".");
 				System.out.printf(commands[6]);
-				System.out.printf(": as");
+				System.out.printf(": as ");
 				System.out.printf(commands[8]);
 				System.out.printf(" of gate ");
 				System.out.printf(commands[7]);

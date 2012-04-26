@@ -37,8 +37,6 @@ public class edacontroller {
 	{
 		gate gate1 = correntcircuit.searchgate(c[4]);
 		gate gate2 = correntcircuit.searchgate(c[7]);
-		System.out.printf(gate1.getname());
-		System.out.printf(gate2.getname());
 		line l = new line (gate1,gate2,c[2],c[5],c[8]);
 		gate1.setOutputLine(l);
 		gate2.addInputLine(l, c[8]);
