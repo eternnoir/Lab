@@ -62,30 +62,16 @@ public class edacontroller {
 	public void evaluate(String[] c)
 	{
 		correntcircuit.clearall();
-		line l1 = searchline(c[1]);
-		line l2 = searchline(c[3]);
-		l1.isevu = true;
-		l2.isevu = true;
-		if(c[2].equals("1"))
-			l1.changestate(true);
-		else
-			l1.changestate(false);
-		if(c[4].equals("1"))
-			l2.changestate(true);
-		else
-			l2.changestate(false);
-		line l3 = searchline(c[5]);
-		line l4 = searchline(c[7]);
-		l3.isevu = true;
-		l4.isevu = true;
-		if(c[6].equals("1"))
-			l3.changestate(true);
-		else
-			l3.changestate(false);
-		if(c[8].equals("1"))
-			l4.changestate(true);
-		else
-			l4.changestate(false);
+		for(int i=1;i<c.length;)
+		{
+			line l1 = searchline(c[i]);
+			l1.isevu=true;
+			if(c[i+1].equals("1"))
+				l1.changestate(true);
+			else
+				l1.changestate(false);
+			i = i+2;
+		}
 		
 		while(true)
 		{
@@ -93,11 +79,12 @@ public class edacontroller {
 			if(output.isevu == true)
 				break;
 		}
-		System.out.printf("Circuit eda output are:\n");
+		System.out.printf("Circuit eda output are:");
+		System.out.printf(output.getname());
 		if(output.state == true)
-			System.out.printf("I = 1\n");
+			System.out.printf(" 1\n");
 		else
-			System.out.printf("I = 0\n");
+			System.out.printf(" 0\n");
 		
 		
 	}

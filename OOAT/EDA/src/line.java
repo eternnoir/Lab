@@ -34,6 +34,4 @@ public class line {
 		return name;
 	}
 	
-	
-	
 }

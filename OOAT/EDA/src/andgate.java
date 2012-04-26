@@ -50,10 +50,8 @@ public class andgate implements gate{
 		else
 		{
 			output.isevu = false;
-		}
-		
+		}	
 	}
-	
 	
 	public boolean check()
 	{
